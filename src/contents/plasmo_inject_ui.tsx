@@ -24,7 +24,7 @@ const PlasmoPricingExtra = () => {
         background: "transparent",
         padding: 12
       } }>
-      {data}
+      {/*{data}*/}
     </span>
   );
 };

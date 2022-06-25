@@ -20,7 +20,6 @@ const inject = async (tabId) => {
 // You can inject however you'd like to, doesn't have
 // to be with chrome.tabs.onActivated
 chrome.tabs.onActivated.addListener((e) => {
-  console.log(e)
   inject(e.tabId).then(r => {
     console.log(r);
   });

@@ -1,4 +1,4 @@
-import cssText from "data-text:~/contents/overlay.css";
+import cssText from "data-text:../contents/overlay.css";
 import type { PlasmoContentScript } from "plasmo";
 
 export const config: PlasmoContentScript = {
